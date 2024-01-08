@@ -9,7 +9,7 @@
 /* banner part  */
 .banner {
     max-width: 1320px;
-    background: url("B9A1-New-Year-New-Mission/resources/Banner\ Image.png");
+    background: url("imgs/resources/Banner\ Image.png");
     background-repeat: no-repeat;
     margin: auto;
     height: 600px;
@@ -101,7 +101,7 @@
 /* join section  */
 .join-section {
     max-width: 1320px;
-    background: url("B9A1-New-Year-New-Mission/resources/Vectorrr.png");
+    background: url("imgs/resources/Vectorrr.png");
     margin: 50px auto;
     display: flex;
     align-items: center;
