@@ -98,8 +98,8 @@
 
 }
 
-/* join section  */
-.join-section {
+/* welcome section  */
+.welcome-section {
     max-width: 1320px;
     background: url("imgs/resources/Vectorrr.png");
     margin: 50px auto;
@@ -107,12 +107,12 @@
     align-items: center;
 }
 
-.join-first-div {
+.welcome-first-div {
     width: 60%;
     padding: 100px 110px 0px 100px;
 }
 
-.join-title {
+.welcome-title {
     color: #FFF;
     font-size: 64px;
     font-style: normal;
@@ -122,7 +122,7 @@
     letter-spacing: 7.04px;
 }
 
-.join-text {
+.welcome-text {
     margin: 20px 0px 25px 0px;
     color: rgba(255, 255, 255, 0.80);
     width: 650px;
@@ -132,9 +132,52 @@
     line-height: 30px;
 }
 
-.join-second-div {
+.welcome-second-div {
     width: 40%;
     padding: 50px 80px 50px 0px;
+}
+
+/* join section  */
+h4 {
+    color: #070211;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+}
+
+span {
+    color: #F00;
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    /* 175% */
+    text-transform: capitalize;
+}
+
+.join {
+    margin: auto;
+    max-width: 1320px;
+}
+
+.join-container {
+    text-align: center;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    padding: 200px 0px;
+}
+
+.btn-primary {
+    padding: 20px 30px;
+    border-radius: 8px;
+    background: #F00;
+    border: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 900;
+    margin-top: 20px;
 }
 
 /* bonous section  */
@@ -359,7 +402,8 @@
     line-height: 40px;
     /* 166.667% */
 }
-.footer-logo{
+
+.footer-logo {
     display: flex;
     justify-content: center;
     padding: 50px 0px;
