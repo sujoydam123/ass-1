@@ -9,7 +9,8 @@
 /* banner part  */
 .banner {
     max-width: 1320px;
-    background: url("imgs/resources/Banner\ Image.png");
+    background-image: url("imgs/resources/Banner\ Image.png");
+    border-radius: 16px;
     background-repeat: no-repeat;
     margin: auto;
     height: 600px;
